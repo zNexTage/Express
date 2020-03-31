@@ -1,0 +1,21 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "description": "Seção 29 do curso web moderno da cod3r. Essa seção aborda o express no node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name aapx-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
